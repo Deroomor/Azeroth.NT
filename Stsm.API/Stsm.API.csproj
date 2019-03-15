@@ -393,8 +393,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Appjmessage.cs" />
     <Compile Include="Controller\HomeController.cs" />
     <Compile Include="Controller\RT.cs" />
+    <Compile Include="DbContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

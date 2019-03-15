@@ -13,6 +13,9 @@ namespace Stsm.API
     {
         static void Main(string[] args)
         {
+
+            DbContext db = new DbContext();
+            var lst= db.Appjmessage.ToList();
             //配置类
             var config = new ConfigurationBuilder()
                  .AddCommandLine(args)
